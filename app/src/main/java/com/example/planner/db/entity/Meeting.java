@@ -68,7 +68,7 @@ public class Meeting implements Comparable<Meeting> {
     }
 
     public static void closeDB() {
-        db.close();
+        if (db != null) db.close();
         db = null;
     }
 
