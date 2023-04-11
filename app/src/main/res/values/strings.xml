@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name" translatable="false">Planner</string>
+    <string name="navigation_drawer_open" translatable="false">Open navigation drawer</string>
+    <string name="navigation_drawer_close" translatable="false">Close navigation drawer</string>
+    <string name="nav_header_title" translatable="false">Android Studio</string>
+    <string name="nav_header_subtitle" translatable="false">android.studio@android.com</string>
+    <string name="nav_header_desc" translatable="false">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_payment">Payment</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_addmeeting">Add Meeting</string>
+    <string name="menu_showmeeting">Show Meetings</string>
+    <string name="menu_editmeeting">Edit Meeting</string>
+    <string name="menu_addpayment">Add new Payment</string>
+    <string name="menu_showpayment">Show Payments</string>
+    <string name="menu_editpayment">Edit Payment</string>
+    <string name="menu_dateinformation">Information</string>
+    <string name="menu_settings">Settings</string>
+
+    <string name="Home_Button_AddNewMeeting_Text">Add new Meeting</string>
+    <string name="Home_Button_RemoveMeeting_Text">Remove Meeting</string>
+    <string name="Home_Button_AddNewPayment_Text">Add new Payment</string>
+    <string name="Home_Button_RemovePayment_Text">Remove Payment</string>
+    <string name="Home_Button_OpenMeeting_Text">Open Meeting</string>
+    <string name="Home_Button_OpenMeetingSelection_Text">Open Selected Meeting</string>
+    <string name="Home_TextView_LastSevenDays_Text">Meetings in the next 7 Days</string>
+    <string name="Home_TextView_InformationTitle_Text">Information\'s</string>
+    <string name="Home_TextView_MeetingTitle_Text">Meeting\'s</string>
+    <string name="Home_TextView_PaymentTitle_Text">Payment\'s</string>
+
+    <string name="Meeting_Button_AddNewMeeting_Text">Add Meeting</string>
+    <string name="Meeting_EditText_Title_Text">Title</string>
+    <string name="Meeting_Button_Edit_Text">Edit</string>
+    <string name="Meeting_Button_Save_Text">Save Changes</string>
+    <string name="Meeting_Button_Delete_Text">Delete Meeting</string>
+
+    <string name="Payment_Button_AddNewPayment_Text">Add new Payment</string>
+    <string name="Payment_Switch_SetPayment_Text">Expenditure/Revenue</string>
+    <string name="Payment_EditText_Title_Text">Title</string>
+    <string name="Payment_TextView_ChartTitle_Text">Last month</string>
+    <string name="Payment_Button_OpenPayments_Text">Open Payments</string>
+
+    <string name="Menu_Button_ResetData_Text">Reset Data</string>
+    <string name="Menu_TextView_SettingsTitle">Settings</string>
+    <string name="Menu_Button_AddTestData_Text">Add Test Data</string>
+
+
+</resources>

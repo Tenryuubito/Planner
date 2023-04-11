@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="action_settings">Einstellungen</string>
+    <string name="menu_editpayment">Posten bearbeiten</string>
+    <string name="menu_settings">Einstellungen</string>
+    <string name="Home_Button_AddNewMeeting_Text">Neuen Termin hinzufügen</string>
+    <string name="Home_Button_RemoveMeeting_Text">Termin entfernen</string>
+    <string name="Home_Button_RemovePayment_Text">Kosten entfernen</string>
+    <string name="Home_Button_AddNewPayment_Text">Neue Kosten hinzufügen</string>
+    <string name="Home_Button_OpenMeeting_Text">Termine anzeigen</string>
+    <string name="menu_home">Hauptseite</string>
+    <string name="menu_slideshow">Bilderserie</string>
+    <string name="Home_Button_OpenMeetingSelection_Text">Ausgewählte Termine anzeigen</string>
+    <string name="Home_TextView_LastSevenDays_Text">Termine in den Nächsten 7 Tagen</string>
+    <string name="Meeting_Button_AddNewMeeting_Text">Termin hinzufügen</string>
+    <string name="Meeting_EditText_Title_Text">Titel</string>
+    <string name="menu_addmeeting">Termin hinzufügen</string>
+    <string name="menu_showmeeting">Termine</string>
+    <string name="Meeting_Button_Edit_Text">Bearbeiten</string>
+    <string name="Meeting_Button_Save_Text">Änderungen Speichern</string>
+    <string name="menu_editmeeting">Termin bearbeiten</string>
+    <string name="Meeting_Button_Delete_Text">Termin löschen</string>
+    <string name="menu_payment">Kosten</string>
+    <string name="Payment_Button_AddNewPayment_Text">Neuen Posten hinzufügen</string>
+    <string name="Payment_Switch_SetPayment_Text">Ausgabe/Einnahme</string>
+    <string name="Payment_EditText_Title_Text">Titel</string>
+    <string name="menu_addpayment">Neue Einnahme/Ausgabe</string>
+    <string name="Payment_TextView_ChartTitle_Text">letzten Monat</string>
+    <string name="Payment_Button_OpenPayments_Text">Posten anzeigen</string>
+    <string name="menu_showpayment">Siehe Einnahmen/Ausgaben</string>
+    <string name="menu_dateinformation">Informationen</string>
+    <string name="Home_TextView_InformationTitle_Text">Informationen</string>
+    <string name="Home_TextView_MeetingTitle_Text">Termine</string>
+    <string name="Home_TextView_PaymentTitle_Text">Einnahmen/Ausgaben</string>
+    <string name="Menu_Button_ResetData_Text">Daten zurücksetzen</string>
+    <string name="Menu_TextView_SettingsTitle">Einstellungen</string>
+    <string name="Menu_Button_AddTestData_Text">Testdaten erstellen</string>
+</resources>

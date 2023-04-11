@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Default_Background_Color">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <EditText
+                android:id="@+id/AddPayment_EditText_Date"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="date"
+                android:textAlignment="center"
+                android:autofillHints=""
+                tools:ignore="LabelFor"/>
+
+            <EditText
+                android:id="@+id/AddPayment_EditText_Title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:textAlignment="center"
+                android:text="@string/Payment_EditText_Title_Text"
+                android:autofillHints=""
+                tools:ignore="LabelFor" />
+
+            <EditText
+                android:id="@+id/AddPayment_EditText_Amount"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="numberDecimal"
+                android:textAlignment="center"
+                android:autofillHints=""
+                tools:ignore="LabelFor"/>
+
+            <Switch
+                android:id="@+id/AddPayment_Switch_PaymentOrNot"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:text="@string/Payment_Switch_SetPayment_Text"
+                tools:ignore="UseSwitchCompatOrMaterialXml" />
+
+            <android.widget.Button
+                android:id="@+id/AddPayment_Button_AddNewPayment"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/custom_button"
+                android:layout_margin="5dp"
+                android:text="@string/Payment_Button_AddNewPayment_Text" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

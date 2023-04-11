@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.planner.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_nav_home_to_nav_meeting"
+            app:destination="@id/nav_addmeeting" />
+        <action
+            android:id="@+id/action_nav_home_to_showMeetingsFragment"
+            app:destination="@id/nav_showmeeting" />
+        <action
+            android:id="@+id/action_nav_home_to_addPaymentFragment"
+            app:destination="@id/nav_addpayment" />
+        <action
+            android:id="@+id/action_nav_home_to_nav_showpayment"
+            app:destination="@id/nav_showpayment" />
+        <action
+            android:id="@+id/action_nav_home_to_dateInformationFragment2"
+            app:destination="@id/nav_dateInformation" />
+        <action
+            android:id="@+id/action_nav_home_to_nav_settings2"
+            app:destination="@id/nav_settings" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_payment"
+        android:name="com.example.planner.ui.payment.PaymentFragment"
+        android:label="@string/menu_payment"
+        tools:layout="@layout/fragment_payment" >
+        <action
+            android:id="@+id/action_nav_payment_to_addPaymentFragment"
+            app:destination="@id/nav_addpayment" />
+        <action
+            android:id="@+id/action_nav_payment_to_nav_showpayment"
+            app:destination="@id/nav_showpayment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="com.example.planner.ui.slideshow.SlideshowFragment"
+        android:label="@string/menu_slideshow"
+        tools:layout="@layout/fragment_slideshow" />
+    <fragment
+        android:id="@+id/nav_addmeeting"
+        android:name="com.example.planner.ui.home.meeting.addMeeting.AddMeetingFragment"
+        android:label="@string/menu_addmeeting"
+        tools:layout="@layout/fragment_home_addmeeting" />
+    <fragment
+        android:id="@+id/nav_showmeeting"
+        android:name="com.example.planner.ui.home.meeting.showMeetings.ShowMeetingsFragment"
+        android:label="@string/menu_showmeeting"
+        tools:layout="@layout/fragment_home_showmeetings" >
+        <action
+            android:id="@+id/action_nav_showmeeting_to_editMeetingFragment"
+            app:destination="@id/nav_editmeeting" />
+    </fragment>
+    <fragment
+        android:id="@+id/nav_editmeeting"
+        android:name="com.example.planner.ui.home.meeting.editMeeting.EditMeetingFragment"
+        android:label="@string/menu_editmeeting"
+        tools:layout="@layout/fragment_home_editmeeting"/>
+    <fragment
+        android:id="@+id/nav_addpayment"
+        android:name="com.example.planner.ui.payment.addPayment.AddPaymentFragment"
+        android:label="@string/menu_addpayment"
+        tools:layout="@layout/fragment_payment_addpayment"/>
+    <fragment
+        android:id="@+id/nav_showpayment"
+        android:name="com.example.planner.ui.payment.showPayment.ShowPaymentFragment"
+        android:label="@string/menu_showpayment"
+        tools:layout="@layout/fragment_payment_showpayment">
+        <action
+            android:id="@+id/action_nav_showpayment_to_placeholder2"
+            app:destination="@id/nav_editpayment" />
+    </fragment>
+    <fragment
+        android:id="@+id/nav_editpayment"
+        android:name="com.example.planner.ui.payment.editPayment.EditPaymentFragment"
+        android:label="@string/menu_editpayment"
+        tools:layout="@layout/fragment_payment_editpayment" />
+    <fragment
+        android:id="@+id/nav_dateInformation"
+        android:name="com.example.planner.ui.home.meeting.dateInformation.DateInformationFragment"
+        android:label="@string/menu_dateinformation"
+        tools:layout="@layout/fragment_home_dateinformation"/>
+    <fragment
+        android:id="@+id/nav_settings"
+        android:name="com.example.planner.ui.menu.settings.SettingsFragment"
+        android:label="@string/menu_settings"
+        tools:layout="@layout/fragment_menu_settings"/>
+</navigation>

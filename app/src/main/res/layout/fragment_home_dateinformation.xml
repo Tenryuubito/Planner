@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Default_Background_Color">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="@dimen/common_layout_margin"
+        tools:ignore="MissingConstraints">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:layout_margin="@dimen/common_layout_margin"
+                android:textColor="@color/black"
+                android:textSize="@dimen/common_title_size"
+                android:text="@string/Home_TextView_InformationTitle_Text"/>
+
+            <LinearLayout
+                android:id="@+id/DateInformation_LinearLayout_BasicInformation"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" />
+
+            <LinearLayout
+                android:id="@+id/DateInformation_LinearLayout_Meetings"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"
+                    android:layout_margin="@dimen/common_layout_margin"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/common_title_size"
+                    android:text="@string/Home_TextView_MeetingTitle_Text"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/DateInformation_LinearLayout_Payments"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"
+                    android:layout_margin="@dimen/common_layout_margin"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/common_title_size"
+                    android:text="@string/Home_TextView_PaymentTitle_Text"/>
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
